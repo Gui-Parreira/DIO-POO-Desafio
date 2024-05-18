@@ -1,20 +1,21 @@
 # DIO - Trilha Java Básico
 
 classDiagram
+
     class ReprodutorMusical {
-        +tocar()
+    +tocar()
 	+pausar()
         +selecionarMusica(String exemplo)
     }
 
     class AparelhoTelefonico {  
-        +ligar(String exemplo)
-	 +atender()
+    +ligar(String exemplo)
+	+atender()
 	+iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
-        +exibirPagina(String exemplo)
+    +exibirPagina(String exemplo)
 	+adicionarNovaAba()
 	+atualizarPagina()
     }
@@ -25,3 +26,5 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+
+
