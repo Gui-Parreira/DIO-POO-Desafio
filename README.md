@@ -8,7 +8,7 @@ classDiagram
     class ReprodutorMusical {
         +tocar()
         +pausar()
-        +selecionarMusica(String exemplo)
+        +selecionarMusica(String musica)
         <<abstract>>
     }
 
