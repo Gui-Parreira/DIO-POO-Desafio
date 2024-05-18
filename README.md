@@ -3,20 +3,20 @@
 classDiagram
     class ReprodutorMusical {
         +tocar()
-	      +pausar()
+	+pausar()
         +selecionarMusica(String exemplo)
     }
 
     class AparelhoTelefonico {  
         +ligar(String exemplo)
-	      +atender()
-	      +iniciarCorreioVoz()
+	 +atender()
+	+iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
         +exibirPagina(String exemplo)
-	      +adicionarNovaAba()
-	      +atualizarPagina()
+	+adicionarNovaAba()
+	+atualizarPagina()
     }
 
     class iPhone {
