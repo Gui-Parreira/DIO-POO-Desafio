@@ -13,14 +13,14 @@ classDiagram
     }
 
     class AparelhoTelefonico {  
-        +ligar(String liga)
+        +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
         <<abstract>>
     }
 
     class NavegadorInternet {
-        +exibirPagina(String exibe)
+        +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
         <<abstract>>
